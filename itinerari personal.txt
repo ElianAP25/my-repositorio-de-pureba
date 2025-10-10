@@ -1,0 +1,68 @@
+itinerari personal
+
+condición de trabajo
+característica del lugar de trabajo donde se pueden generar riesgos
+
+riesgos laborales
+posibilidades de que el trabajador pueda tener un accidente laboral
+
+riesgos greu y imminet
+cuando es muy probable que el riesgo laborar pase de forma inmediata y afecte al trabajador
+
+suelo mojado			caída			si
+escalera mal diseñada		caída 			si
+mala ventilación		mareos dolor de cabeza	no
+desorden			fracturas		si
+jornada laboral excesiva	estrés/malestar		no
+falta vestimenta de seguridad	quemaduras		si
+
+condiciones
+
+jornadas largas enfrente del ordenador			dolores de cabeza/malestares/problemas de vision	no
+pantallas con mala iluminación y reflejos		forzar la vista/dolores de cabeza/mala visibilidad	no
+trabajos repetitivos					cansancio/estrés/					no
+espacios mal ventilados y temperaturas inadecuadas	malestares/mareos					no
+trabajar bajo presión y términos ajustados		estrés/cansancio/ansiedad				no
+jornadas nocturnas y horas extras constantes		cansancio/malestares/falta de sueño y descanso		no
+uso de cables y conexiones en mal estado		electrocución/posible quemadura por incendio		si
+ciberataques y problemas de seguridad			información personal/					no
+
+
+Pirámide de maslow
+
+
+autorrealización 		feel good
+reconocimiento y autoestima	éxito, 
+necesidades sociales		familia, amistades,
+necesidades seguridad 		estabilidad protección salud
+necesidades fisiológicas	ropa, comida, comodidades
+
+riegos derivados del espacio de trabajo y equipos de trabajo
+
+oficina con cables en el suelo			espacio de trabajo	mal organizado posibilidad de caída si
+cocina con fuego alto y ollas calientes			quemaduras de diferentes grados/malestares	si
+taller mecanico  constantes				mucho ruido problemas de audición/malestares 	no
+cajas mal ordenadas 					desorden	caídas				si
+ordenador  y mala iluminación				estrés/problemas de visión/dolores de cabeza	no
+escalera de mano con peldaño robusto			caída de una gran altura/posibilidades de fracturas	si
+una cierra mecánica sin protección			posibilidad de daño físico			si
+una conexión sobrecargada				posibilidad de cables incendiados		si
+una ambulancia en servicio de urgencia			velocidad de conducción/accidentes		si
+
+
+
+agente físico ruido-vibraciones-radiacion-temperatura-iluminación
+agente quimico
+agente biológico
+
+vibración ->Físico
+tóxicos ->Químico
+
+Son aspectos en la vida que nos pueden afectar físicamente en la salud de un trabajador
+
+
+agentes físicos
+riesgos laborales
+
+
+
