@@ -294,7 +294,7 @@ pas8 a\[**4**, 5, 7, 8, 10]
 
 
 
-&nbsp;	**l=5**
+ 	**l=5**
 
 
 
@@ -326,15 +326,15 @@ valor.seleccionado= \[ ]
 
 comparación == (comparación +1)
 
-&nbsp;	    <
+ 	    <
 
-&nbsp;	    >
+ 	    >
 
-&nbsp;	    <=
+ 	    <=
 
-&nbsp;	    >=
+ 	    >=
 
-&nbsp;	    !
+ 	    !
 
 comparacion= 5
 
@@ -351,4 +351,40 @@ BASE DE DATOS
 
 
 **gy6giazg**
+
+
+
+**PROGRAMACION**
+
+
+
+**búsqueda binaria**
+
+**búsqueda dicotómica**
+
+
+
+**ver videos**
+
+
+
+a={4,5,9,12,14,15,20,22 }
+
+
+
+medida= medir (a)
+
+
+
+posición\_maxima= medida - 1
+
+
+
+pos\_inicio= 0
+
+pos\_final= posición.maxima
+
+pos\_central = (pos.final - pos.inicio)//2
+
+
 
