@@ -372,19 +372,47 @@ a={4,5,9,12,14,15,20,22 }
 
 
 
-medida= medir (a)
+medida= medir (a)		(8)
 
 
 
-posición\_maxima= medida - 1
+posición\_maxima= medida - 1	(7)
 
 
 
-pos\_inicio= 0
+pos\_inicio= 0			(0)
 
-pos\_final= posición.maxima
+pos\_final= posición.maxima	(7)
 
-pos\_central = (pos.final - pos.inicio)//2
+pos\_central = (pos.final - pos.inicio)//2	(3)
+
+
+
+valor\_repiat=30
+
+valor\_central= \[pos\_central]	(12)
+
+
+
+Mientras (valor\_actual;valor\_central i pos\_incio<pos\_final) for
+
+
+
+Si valor\_central < valor\_central for
+
+&nbsp;	pos\_fin = pos\_central -1
+
+sino
+
+&nbsp;	pos\_inicio = pos\_central +1
+
+fin si
+
+&nbsp;	pos\_central = (pos\_inicio + pos\_final)//2
+
+valor\_central = a\[pos\_central]
+
+valor\_central = valor\_central
 
 
 
