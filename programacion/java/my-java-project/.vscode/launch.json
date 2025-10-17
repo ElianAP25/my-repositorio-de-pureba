@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug HelloWorld",
+            "request": "launch",
+            "mainClass": "com.example.HelloWorld",
+            "projectName": "my-java-project"
+        }
+    ]
+}
