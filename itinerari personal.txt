@@ -74,7 +74,7 @@ tema 3
 derechos y deberes de los trabajadores
 
 
-https://es.scribd.com/document/820418764/Itinerario-Personal-para-la-Empleabilidad-360%C2%BA-2024 pagina 47
+
 
 			EMPRESA								ley de prevención de riesgos laboral 31/1995
 PRL 			TRABAJADORES		RESPONSABLE DE LA PREVENCION		   |-	pagina 48 libro
@@ -111,3 +111,14 @@ INFORMAR DE LOS RIESGOS LABORALES	INFORMAR DE LOS RIESGOS LABORALES
 PARAR DE TRABAJAR POR RIESGOS		
 
 
+1.informar riesgos			obligación empresa
+2.utilizar correctamente los equipos	obligacion trabajador
+3.garantizar la salud			obligación de la empresa
+4.informar riesgos			derecho del trabajador
+5.
+6.informar medidas preventivas		obligación de la empresa
+7.no actuar de manera imprudente 	obligación trabajador
+8.prevención adecuada 			derecho trabajador
+
+
+ALGORITMOS DE PYTHON APRENDER VIDEOS

@@ -400,19 +400,17 @@ Mientras (valor\_actual;valor\_central i pos\_incio<pos\_final) for
 
 Si valor\_central < valor\_central for
 
-&nbsp;	pos\_fin = pos\_central -1
+ 	pos\_fin = pos\_central -1
 
 sino
 
-&nbsp;	pos\_inicio = pos\_central +1
+ 	pos\_inicio = pos\_central +1
 
 fin si
 
-&nbsp;	pos\_central = (pos\_inicio + pos\_final)//2
+ 	pos\_central = (pos\_inicio + pos\_final)//2
 
 valor\_central = a\[pos\_central]
 
 valor\_central = valor\_central
-
-
 
