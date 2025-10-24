@@ -414,3 +414,7 @@ valor\_central = a\[pos\_central]
 
 valor\_central = valor\_central
 
+
+
+ALGORITMOS DE PYTHON APRENDER VIDEOS
+
