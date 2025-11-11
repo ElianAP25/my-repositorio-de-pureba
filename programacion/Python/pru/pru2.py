@@ -121,3 +121,47 @@ for fila in range (1, altura + 1):
 
 print("=" *20)
         
+altura = 5
+ancho = altura
+for fila in range (1, altura + 1):
+    for columna in range (1, ancho + 1):
+        if columna <= fila:
+            print("* ", end="")
+        else:
+            print(" ", end="")
+    print()
+
+print("=" *20)
+
+altura = 5
+ancho = altura
+for fila in range (1, altura + 1):
+    for columna in range (1, ancho + 1):
+        if (columna == 1) or (columna == 1) or (fila == altura) :
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+print("=" *20)
+
+altura = 5
+for fila in range(1, altura + 1):
+    for columna in range(1, fila + 1):
+        if fila == altura or columna == 1 or columna == fila:
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+print("=" * 20)
+
+altura = 10
+ancho = altura
+for fila in range (1, altura + 1):
+    for columna in range (1, ancho + 1):
+        if (columna == 1) or (columna == 10) or (fila == 1) or (fila == altura):
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
