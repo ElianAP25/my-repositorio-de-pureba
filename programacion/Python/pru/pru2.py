@@ -4,17 +4,17 @@ for fila in range(10):
     print()
 
 print("="*20)
-
+#=========================================================================================================
 for fila in range(1,11):
     print("* " * fila)
 
 print("="*10)
-
+#=========================================================================================================
 for fila in range(10,0,-1):
     print("* " * fila)
 
 print("="*20)
-
+#=========================================================================================================
 for fila in range(1,11):
     nblancos = 10 - fila
 
@@ -27,7 +27,7 @@ for fila in range(1,11):
     print()
 
 print ("="*20)
-
+#=========================================================================================================
 for fila in range(1,11):
     num_asterisco = 11 - fila
 
@@ -40,7 +40,7 @@ for fila in range(1,11):
     print()
 
 print("="*20)
-
+#=========================================================================================================
 for fila in range(1,11):
     nblancos = 10 - fila
 
@@ -53,7 +53,7 @@ for fila in range(1,11):
     print()
 
 print("="*20)
-
+#=========================================================================================================
 for fila in range(10,0,-1):
     nblancos = 10 - fila
 
@@ -65,7 +65,7 @@ for fila in range(10,0,-1):
     
     print()
 print("="*20)
-
+#=========================================================================================================
 altura = 10
 
 for fila in range(altura):
@@ -88,7 +88,7 @@ for fila in range(altura):
     print()
 
 print("="*20)
-
+#=========================================================================================================
 altura = 10
 num_columnas = 2 * altura - 1
 
@@ -104,7 +104,7 @@ for fila in range (1, altura - 1):
     print()
 
 print("=" *20)
-
+#=========================================================================================================
 altura = 4
 num_columnas = altura * 2 - 1
 
@@ -120,7 +120,7 @@ for fila in range (1, altura + 1):
     print()
 
 print("=" *20)
-        
+#=========================================================================================================
 altura = 5
 ancho = altura
 for fila in range (1, altura + 1):
@@ -132,7 +132,7 @@ for fila in range (1, altura + 1):
     print()
 
 print("=" *20)
-
+#=========================================================================================================
 altura = 5
 ancho = altura
 for fila in range (1, altura + 1):
@@ -144,7 +144,7 @@ for fila in range (1, altura + 1):
     print()
 
 print("=" *20)
-
+#=========================================================================================================
 altura = 5
 for fila in range(1, altura + 1):
     for columna in range(1, fila + 1):
@@ -155,12 +155,49 @@ for fila in range(1, altura + 1):
     print()
 
 print("=" * 20)
-
-altura = 10
+#=========================================================================================================
+altura = 5
 ancho = altura
 for fila in range (1, altura + 1):
     for columna in range (1, ancho + 1):
-        if (columna == 1) or (columna == 10) or (fila == 1) or (fila == altura):
+        if (columna == 1) or (columna == 5) or (fila == 1) or (fila == altura):
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+print("=" *20)
+#=========================================================================================================
+altura = 4
+ancho = altura * 2 - 1
+for fila in range (columna):
+    for columna in range (altura * 2):
+        if (columna >= altura + 1 - fila) and (columna <= altura - 1 + fila):
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+print("=" *20)
+#=========================================================================================================
+altura = 4
+ancho = altura * 2 - 1
+
+for fila in range(altura):
+    for columna in range(ancho):
+        if (columna == altura - 1 - fila or columna == altura - 1 + fila or fila == altura - 1):
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+
+print("=" *20)
+#=========================================================================================================
+altura = 7
+ancho = altura
+for fila in range (1, altura + 1):
+    for columna in range (1, ancho + 1):
+        if (columna == 1) or (columna == altura) or (fila == 1) or (fila == altura) or (fila >= 3 and fila <=5 and columna >= 3 and columna <=5) and not (fila == 4 and columna == 4):
             print("* ", end="")
         else:
             print("  ", end="")
