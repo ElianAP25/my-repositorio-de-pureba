@@ -197,8 +197,38 @@ altura = 7
 ancho = altura
 for fila in range (1, altura + 1):
     for columna in range (1, ancho + 1):
-        if (columna == 1) or (columna == altura) or (fila == 1) or (fila == altura) or (fila >= 3 and fila <=5 and columna >= 3 and columna <=5) and not (fila == 4 and columna == 4):
+        if (
+            columna == 1 or columna == altura or fila == 1 or fila == altura or 
+            (fila >= 3 and fila <=5 and columna >= 3 and columna <=5) and not (fila == 4 and columna == 4)):
             print("* ", end="")
         else:
             print("  ", end="")
     print()
+print("=" *20)
+#=========================================================================================================
+altura = 10
+ancho = altura
+for fila in range (1, altura + 1):
+    for columna in range (1, ancho + 1):
+        if (
+            columna == 1 or columna == altura or fila == 1 or fila == altura or 
+            (fila >= 3 and fila <=8 and columna >= 3 and columna <=8) and not (fila >= 4 and fila <=7 and columna >= 4 and columna <=7 )):
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+print("=" *20)
+#=========================================================================================================
+altura = 7
+ancho = altura
+for fila in range (1, altura + 1):
+    for columna in range (1, ancho + 1):
+        if (
+            columna == 1 or columna == altura or fila == 1 or fila == altura or 
+            (fila >= 3 and fila <=altura - 2 and columna >= 3 and columna <= altura - 2 ) 
+            and not (fila >= 4 and fila <=altura - 3 and columna >= 4 and columna <= altura - 3 )):
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
+print("=" *20)
