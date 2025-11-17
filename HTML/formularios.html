@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <title>Formulario de Registro</title>
+</head>
+    <body>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombres:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="Edad">Edad:</label><br>
+        <input type="number" id="Edad" number="Edad" required><br><br>
+
+          <button type="submit">Enviar</button>
+    </form>
+
+    <h2> cual es tu color favorito: </h2>
+    <form>
+        <input type="radio" id="Rojo" name="color_fav" value="Rojo">
+        <label for="Rojo">Rojo</label><br>
+        <input type="radio" id="Azul" name="color_fav" value="Azul">
+        <label for="Azul">Azul</label><br>
+        <input type="radio" id="Verde" name="color_fav" value="Verde">
+        <label for="Verde">Verde</label>
+    </form>
+
+    <h2> que te gusta hacer en tus tiempos libres?</h2>
+    <form>
+        <input type="checkbox" id="hobby1" name="hobby1" value="Dibujar">
+        <label for="hobby1"> Dibujar</label><br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="Cantar">
+        <label for="hobby2"> Cantar</label><br>
+        <input type="checkbox" id="hobby3" name="hobby3" value="Programar">
+        <label for="hobby3"> Programar</label>
+    </form>
+
+     <h2> coloca un comentario</h2>
+
+    <textarea name="message" rows="10" cols="30">
+    </textarea><br><br>
+   
+    <button type="submit">Enviar</button>
+
+    <h2>formulario completo:</h2>
+<h3>agrega tu informacion</h3>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+    <h3>genero:</h3>
+        <input type="radio" id="Hombre" name="genero" value="Hombre">
+        <label for="Hombre">Hombre</label><br>
+        <input type="radio" id="Mujer" name="genero" value="Mujer">
+        <label for="Mujer">Mujer</label><br>
+        <input type="radio" id="Prefiero_no_decirlo" name="genero" value="Prefiero_no_decirlo">
+        <label for="Prefiero_no_decirlo">Prefiero no decirlo</label> <br><br>
+
+        <label for="pais">Elije tu pais:</label>
+        <select id="pais" name="pais">
+            <option value="ES">España</option>
+            <option value="EC">Ecuador</option>
+            <option value="MX">Mexico</option>
+            <option value="US">Estados Unidos</option>
+            <option value="ARG">Argentina</option>
+        </select><br><br>
+        <h3> coloca un comentario</h3>
+
+        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+        <button type="reset">rehacer</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+    </body>
+    
