@@ -1,0 +1,13 @@
+creación de una maquina virtual
+instalación de Windows
+explicación de sus pasos
+ver particiones: como hacerlas
+añadir un disco mas en la maquina virtual 
+crear un usuario en la maquina virtual
+crear una copia del disco para restauración
+Notepad++ instalar y desinstalar app
+crear una carpeta compartida entre la maquina virtual y el anfitrión
+revisión de carpetas de Windows
+sistem32 etc
+carpeta de usuario
+crear una copia de seguridad backup
