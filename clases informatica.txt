@@ -1,13 +1,50 @@
+AGREGAR INFORMACION DE WINDOWS 11 Y UBUNTU 
+
+APUNTES:
+
 creación de una maquina virtual
+	explicaciones de VirtualBox y para que sirve
+	pasos a instalar VirtualBox
+	configuraciones a hacer
+	crear una maquina virtual
+	revisar los requisitos del sistema operativo
+	
+
 instalación de Windows
-explicación de sus pasos
+	pasos de instalación
+	sistema operativo a usar y configurar
+
 ver particiones: como hacerlas
-añadir un disco mas en la maquina virtual 
+	Como ver las particiones y como hacerlas
+	eliminar particiones
+
 crear un usuario en la maquina virtual
+	explicación y como hacerlo
+
+añadir un disco mas en la maquina virtual
+	añadir el disco
+	configurar
+	
+
 crear una copia del disco para restauración
+	explicación
+	como hacerlo
+
 Notepad++ instalar y desinstalar app
+	explicaciones
+
 crear una carpeta compartida entre la maquina virtual y el anfitrión
+	
+	
 revisión de carpetas de Windows
-sistem32 etc
-carpeta de usuario
+	Como funciona Windows con sus carpetas (FICHEROS)
+	explicaciones
+	sistem32 etc
+	carpeta de usuario
+
+Como funciona la creación de usuarios y como crear usuarios
+	
 crear una copia de seguridad backup
+
+
+referencias poner exactamente de donde sacas la información de la paginas 

@@ -219,7 +219,7 @@ for fila in range (1, altura + 1):
     print()
 print("=" *20)
 #=========================================================================================================
-altura = 7
+altura = 8
 ancho = altura
 for fila in range (1, altura + 1):
     for columna in range (1, ancho + 1):
@@ -232,3 +232,4 @@ for fila in range (1, altura + 1):
             print("  ", end="")
     print()
 print("=" *20)
+#=========================================================================================================
