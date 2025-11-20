@@ -219,7 +219,7 @@ for fila in range (1, altura + 1):
     print()
 print("=" *20)
 #=========================================================================================================
-altura = 8
+altura = 5
 ancho = altura
 for fila in range (1, altura + 1):
     for columna in range (1, ancho + 1):
@@ -233,3 +233,20 @@ for fila in range (1, altura + 1):
     print()
 print("=" *20)
 #=========================================================================================================
+alt = 5
+amp = alt
+pm = (alt - 1) / 2   # entero
+
+for fila in range(alt):
+    df = abs(fila - pm)
+    desfase = pm - df
+    mitadtapa = alt - 2 * fila   # mover aquí (depende de fila)
+
+    for columna in range(amp):
+        tapa = (desfase % 2 == 0) and abs(df-pm)<=mitadtapa / 2
+
+        if fila == 0 or fila == alt - 1 or tapa:
+            print("* ", end="")
+        else:
+            print("  ", end="")
+    print()
